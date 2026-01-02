@@ -1,0 +1,23 @@
+name: boussol
+description: "Application de boussole haute précision 60 FPS."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_compass: ^0.8.1 
+  sensors_plus: ^6.1.0
+  # cupertino_icons supprimé pour réduire la taille
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Mis à jour
+
+flutter:
+  uses-material-design: true
+  # Assurez-vous qu'aucun dossier 'assets' n'est déclaré ici si vous n'en avez pas
